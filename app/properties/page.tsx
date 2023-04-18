@@ -2,9 +2,8 @@ import EmptyState from "../components/EmptyState"
 import ClientOnly from "../components/ClientOnly"
 
 import getCurrentUser from "../actions/getCurrentUser"
-import TripsClient from "./TripsClient"
 import getListings from "../actions/getListings"
-import PropertiesClient from "./PropertiesClient"
+import PropertiesClient from "@/app/properties/PropertiesClient"
 
 export default async function PropertiesPage() {
   const currentUser = await getCurrentUser()

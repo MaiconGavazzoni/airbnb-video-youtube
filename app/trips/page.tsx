@@ -3,7 +3,7 @@ import ClientOnly from "../components/ClientOnly"
 
 import getCurrentUser from "../actions/getCurrentUser"
 import getReservations from "../actions/getReservations"
-import TripsClient from "./TripsClient"
+import TripsClient from "@/app/trips/TripsClient"
 
 export default async function TripsPage() {
   const currentUser = await getCurrentUser()
