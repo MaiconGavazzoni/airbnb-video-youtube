@@ -1,9 +1,9 @@
-import getCurrentUser from "./actions/getCurrentUser"
-import getListings, { IListingsParams } from "./actions/getListings"
-import ClientOnly from "./components/ClientOnly"
-import Container from "./components/Container"
-import EmptyState from "./components/EmptyState"
-import ListingCard from "./components/listings/ListingCard"
+import getCurrentUser from "@/app//actions/getCurrentUser"
+import getListings, { IListingsParams } from "@/app/actions/getListings"
+import ClientOnly from "@/app/components/ClientOnly"
+import Container from "@/app/components/Container"
+import EmptyState from "@/app/components/EmptyState"
+import ListingCard from "@/app/components/listings/ListingCard"
 
 interface HomeProps {
   searchParams: IListingsParams
